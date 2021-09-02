@@ -41,7 +41,7 @@ h5{
 .container{
     width: 400px;
     max-width: 90%;
-    margin:50px auto;
+    margin:80px auto;
     background-color: var(--Verypaleblue);
     border-radius: 8px;
     overflow: hidden;
@@ -57,7 +57,7 @@ h5{
 .annual-plan{
     display: flex;
     align-items: center;
-    background-color: hsla(225, 100%, 94%, 0.4);
+    background-color: hsla(225, 100%, 94%, 0.5);
     margin-top: 20px;
     padding: 15px 25px;
     border-radius: 8px;
@@ -88,8 +88,7 @@ button{
 button:first-child{
     color:var(--Verypaleblue);
     background-color: var(--Brightblue);
-    box-shadow: 0px 21px 10px 0px rgba(224,232,255);
-
+    box-shadow: 0px 25px 15px 0px rgba(224,232,255);
 }
 button:first-child:hover{
 background-color:hsla(245, 75%, 52%, 0.8);
