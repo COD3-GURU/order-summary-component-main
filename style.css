@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+body{
+    font-size: 16px;
+    background-image:url('images/pattern-background-desktop.svg');
+    background-color: var(--Paleblue);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color:var(--Desaturatedblue);
+    font-weight: 500;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h2{
+    margin-bottom: 18px;
+}
+h2,h5{
+    color:var(--Darkblue);
+    font-weight: 900;
+}
+a, button{
+    font-weight: 700;
+}
+h5{
+    margin-bottom: 5px;
+}
+.container{
+    width: 400px;
+    max-width: 90%;
+    margin:50px auto;
+    background-color: var(--Verypaleblue);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 12px 15px 0px rgba(114,128,167,0.5);
+}
+.container .image img{
+    width: 100%;
+}
+.container .text{
+    padding:40px;
+    text-align: center;
+}
+.annual-plan{
+    display: flex;
+    align-items: center;
+    background-color: hsla(225, 100%, 94%, 0.4);
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+.annual-plan div{
+    margin-left: 15px;
+}
+.annual-plan a{
+    margin-left: auto;
+    color: var(--Brightblue);
+}
+.annual-plan a:hover{
+    color:hsla(245, 75%, 52%, 0.8);
+    text-decoration: none;
+}
+button{
+    margin: 20px auto 0;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    color: var(--Desaturatedblue);
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+}
+button:first-child{
+    color:var(--Verypaleblue);
+    background-color: var(--Brightblue);
+    box-shadow: 0px 21px 10px 0px rgba(224,232,255);
+
+}
+button:first-child:hover{
+background-color:hsla(245, 75%, 52%, 0.8);
+}
+button:last-child:hover{
+    color:var(--Darkblue);
+}
+@media screen and (max-width:991px) {
+    body{
+        background-image: url('images/pattern-background-mobile.svg');
+        background-position: center;
+    }
+    .container .text{
+        padding: 20px;
+    }
+    .container .annual-plan{
+        padding: 15px;
+    }
+    
+}
