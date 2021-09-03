@@ -88,7 +88,7 @@ button{
 button:first-child{
     color:var(--Verypaleblue);
     background-color: var(--Brightblue);
-    box-shadow: 0px 25px 15px 0px rgba(224,232,255);
+    box-shadow: 0px 20px 15px  hsla(224, 23%, 55%, 0.37);
 }
 button:first-child:hover{
 background-color:hsla(245, 75%, 52%, 0.8);
